@@ -1,5 +1,8 @@
 import { useState } from "react"
-export default BorderContainer = () => {
-  
 
+export default function BorderContainer() {
+  
+return(<div>
+
+</div>)
 }
