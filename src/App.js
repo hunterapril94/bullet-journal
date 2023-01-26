@@ -1,6 +1,7 @@
 
-import './App.css';
+import './App.scss';
 import { useState } from 'react';
+import ChooseTheme from './components/ChooseTheme';
 // import BorderContainer from './components/BorderContainer';
 import Home from './components/Home';
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Home />
       {/* <BorderContainer /> */}
+      <ChooseTheme />
     </div>
   );
 }

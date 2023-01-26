@@ -19,13 +19,17 @@ export default function Home() {
   }, [])
 
   return(
-<div class="blockquote-wrapper">
-  <div class="blockquote">
-    <h1>
-      {quote.text}
-     </h1>
-    <h4>&mdash;{quote.author}</h4>
-  </div>
-</div>
+    <div>
+      <h1>Bullet Journal Designer</h1>
+      <div class="blockquote-wrapper">
+        <div class="blockquote">
+          <h1>
+            {quote.text}
+          </h1>
+          <h4>&mdash;{quote.author}</h4>
+        </div>
+      </div>
+    </div>
+
   )
 }
