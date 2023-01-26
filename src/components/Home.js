@@ -18,12 +18,14 @@ export default function Home() {
     }).catch(error => console.log(error))
   }, [])
 
-  return(<div>
-    <h2>
+  return(
+<div class="blockquote-wrapper">
+  <div class="blockquote">
+    <h1>
       {quote.text}
-    </h2>
-    <h2>
-      {quote.author}
-    </h2>
-  </div>)
+     </h1>
+    <h4>&mdash;{quote.author}</h4>
+  </div>
+</div>
+  )
 }
