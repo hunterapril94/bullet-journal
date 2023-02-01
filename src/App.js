@@ -2,7 +2,7 @@
 import './App.scss';
 import { useState } from 'react';
 import ChooseTheme from './components/ChooseTheme';
-// import BorderContainer from './components/BorderContainer';
+import BorderContainer from './components/BorderContainer';
 import Home from './components/Home';
 
 
@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <Home />
-      {/* <BorderContainer /> */}
       <ChooseTheme />
+      <BorderContainer />
     </div>
   );
 }
